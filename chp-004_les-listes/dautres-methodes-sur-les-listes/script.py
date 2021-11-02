@@ -8,3 +8,5 @@ liste_trie = sorted(employes)  # On retourne la liste triée dans une nouvelle l
 nombres = [10, 1, 5, 15]
 nombres.reverse()  # Inverse l'ordre de la liste : [15, 5, 1, 10]
 print(nombres)
+
+print(list(range(10)))

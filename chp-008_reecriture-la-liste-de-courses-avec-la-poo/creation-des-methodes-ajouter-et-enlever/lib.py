@@ -30,3 +30,19 @@ if __name__ == "__main__":
     liste.ajouter("Poires")
     print(liste)
     
+liste = ["Maxime", "Martine", "Christopher", "Carlos", "Michael", "Eric"]
+trois_premiers = liste[:3]
+trois_derniers = liste[-3:]
+milieu = liste[1:-1]
+premier_dernier = liste[0::5]
+
+print(trois_premiers)
+print(trois_derniers)
+print(milieu)
+print(premier_dernier)
+
+liste = [1, 2, 3, 4, 5]
+liste.append(6)
+
+if 6 in liste:
+    print("Le nombre 6 a bien été ajouté a la liste")      
