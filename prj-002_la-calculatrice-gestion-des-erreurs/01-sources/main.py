@@ -21,22 +21,16 @@ Il va donc falloir gérer ces cas de figure. Si l'utilisateur rentre une lettre,
 Veuillez entrer deux nombres valides
 >>> Entrez un premier nombre
 """
+a = ""
+b = ""
 
-a = 0
-b = 0
+while a.isdigit() == False or b.isdigit() == False:
+  a = input("Veuillez entrer un premier nombre : ")
+  b = input("Veuillez entrer un second nombre : ")
 
-
-a = input("Veuillez entrer un premier nombre : ")
-
-while a.isdigit() == False:
-  a = input("Veuillez entre un nombre valide : ")
-
-
-b = input("Veuillez entrer un second nombre : ")
-
-while b.isdigit() == False:
-  b = input("Veuillez entre un nombre valide : ")
+  if a.isdigit() == False or b.isdigit() == False:
+    print("Veuillez entre deux nombres valides")
 
 resultat = int(a) + int(b)
 
-print(f"Le résultat de l'addition de {a} + {b} est égal à {resultat}")
+print(f"Le résultat de l'addition de {a} avec {b} est égal à {resultat}")
