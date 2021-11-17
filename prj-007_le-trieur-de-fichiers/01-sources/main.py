@@ -1,49 +1,23 @@
-import sys
+"""
+Le but de ce projet est de créer un script qui permette de trier automatiquement des fichiers dans des sous-dossiers en fonction de leur type (extension).
 
-LISTE = []
+Dans les sources de ce projet, vous trouverez un dossier data qui contient des fichiers de différents types (images, vidéos, documents...).
 
-MENU = """Choisissez parmi les 5 options suivantes :
-1: Ajouter un élément à la liste
-2: Retirer un élément de la liste
-3: Afficher la liste
-4: Vider la liste
-5: Quitter
-👉 Votre choix : """
+Vous pouvez partir de ce dossier ou utiliser n'importe quel dossier de votre disque dur (le dossier de téléchargements est généralement un bon endroit pour faire le ménage...).
 
-MENU_CHOICES = ["1", "2", "3", "4", "5"]
+Le but de ce script est de trier les fichiers selon leur type (et donc leur extension) dans des sous-dossiers.
 
+Par exemple, vous devez regrouper tous les fichiers avec l'extension .mp3 ou .wav dans un sous-dossier Musique.
 
+Tous les fichiers textes quant à eux devront se retrouver dans un dossier Documents.
 
-while True:
-    user_choice = ""
-    while user_choice not in MENU_CHOICES:
-        user_choice = input(MENU)
-        if user_choice not in MENU_CHOICES:
-            print("Veuillez choisir une option valide...")
+Voici l'association des extensions et des dossiers que vous devez utiliser :
 
-    if user_choice == "1":  # Ajouter un élément
-        item = input("Entrez le nom d'un élément à ajouter à la liste de courses : ")
-        LISTE.append(item)
-        print(f"L'élément {item} a bien été ajouté à la liste.")
-    elif user_choice == "2":  # Retirer un élément
-        item = input("Entrez le nom d'un élément à retirer de la liste de courses : ")
-        if item in LISTE:
-            LISTE.remove(item)
-            print(f"L'élément {item} a bien été supprimé de la liste.")
-        else:
-            print(f"L'élément {item} n'est pas dans la liste.")
-    elif user_choice == "3":  # Afficher la liste
-        if LISTE:
-            print("Voici le contenu de votre liste :")
-            for i, item in enumerate(LISTE, 1):
-                print(f"{i}. {item}")
-        else:
-            print("Votre liste ne contient aucun élément.")
-    elif user_choice == "4":  # Vider la liste
-        LISTE.clear()
-        print("La liste a été vidée de son contenu.")
-    elif user_choice == "5":  # Quitter
-        print("À bientôt !")
-        sys.exit()
+mp3, wav, flac : Musique
+avi, mp4, gif : Videos
+bmp, png, jpg : Images
+txt, pptx, csv, xls, odp, pages : Documents
+autres : Divers
 
-    print("-" * 50)
+"""
+
