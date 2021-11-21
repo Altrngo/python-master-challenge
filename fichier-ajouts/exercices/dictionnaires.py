@@ -24,3 +24,4 @@ age_paul = (employes["id01"].get("age"))
 del employes["id03"]
 employes["id02"]["age"] = 26
 age_paul = employes["id01"]["age"]
+
