@@ -1,4 +1,6 @@
-def add(a: int, b: int) -> int:
-  return a + b
+from faker import Faker
 
-add(1, 1)
+fake = Faker(locale="fr_CH")
+
+print(fake.name())
+print(fake.address())
