@@ -4,7 +4,6 @@ from pathlib import Path
 
 app = typer.Typer()
 
-
 @app.command('run')
 def main(extension: str,
          directory: Optional[str] = typer.Argument(None, help="Dossier dans lequel chercher."),
@@ -12,6 +11,7 @@ def main(extension: str,
     """
     Affiche les fichiers trouvés avec l'extension donnée.
     """
+    print(extension, directory, delete)
     
     if directory:
         directory = Path(directory)

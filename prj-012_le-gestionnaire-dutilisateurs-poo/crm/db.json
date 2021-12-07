@@ -1,0 +1,64 @@
+{
+    "_default": {
+        "1": {
+            "first_name": "Fabienne",
+            "last_name": "Carraud",
+            "phone_number": "+41 30 646 36 36",
+            "address": "rue Jos\u00e9 Fonjallaz\n8545 Morard"
+        },
+        "2": {
+            "first_name": "Roland",
+            "last_name": "Vonlanthen",
+            "phone_number": "073 889 41 48",
+            "address": "chemin de Barillon\n9119 Diesbach"
+        },
+        "3": {
+            "first_name": "Eric",
+            "last_name": "Mayor",
+            "phone_number": "+41 (0)90 502 14 09",
+            "address": "boulevard Fonjallaz 262\n7198 Marty-sur-Meyer"
+        },
+        "4": {
+            "first_name": "Nathan",
+            "last_name": "Coigny",
+            "phone_number": "+41 81 327 69 57",
+            "address": "rue Quartier 181\n2214 Chapuis-pr\u00e8s-Jomini"
+        },
+        "5": {
+            "first_name": "Yvette",
+            "last_name": "Chatriant",
+            "phone_number": "092 508 50 99",
+            "address": "avenue de Joye 18\n5254 Gilli\u00e9ron (BL)"
+        },
+        "6": {
+            "first_name": "Luca",
+            "last_name": "Privet",
+            "phone_number": "+41 62 130 44 53",
+            "address": "rue Danielle Carron\n7871 Crivelli"
+        },
+        "7": {
+            "first_name": "Alicia",
+            "last_name": "Marty",
+            "phone_number": "+41 60 504 56 70",
+            "address": "chemin de Galland 1\n9265 Joly"
+        },
+        "8": {
+            "first_name": "Raymond",
+            "last_name": "Barbey",
+            "phone_number": "029 929 10 56",
+            "address": "rue Conrad 73\n2467 Isella-les-Bains"
+        },
+        "9": {
+            "first_name": "M\u00e9lanie",
+            "last_name": "Gilli\u00e9ron",
+            "phone_number": "+41 96 909 34 91",
+            "address": "boulevard Ev\u00e9quoz\n7207 Thorens-sur-Mottiez"
+        },
+        "10": {
+            "first_name": "Julien",
+            "last_name": "Vall\u00e9lian",
+            "phone_number": "030 442 30 79",
+            "address": "rue de Vonlanthen 11\n8794 Diesbach"
+        }
+    }
+}
