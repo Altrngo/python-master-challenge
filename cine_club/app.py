@@ -51,9 +51,9 @@ class App(QtWidgets.QWidget):
     if resultat:
       self.lw_movies.addItem(movie.title)
       # ou alors plus compliqué mais plus pratique:
-    #   lw_item = QtWidgets.QListWidgetItem(movie.title)
-    #   lw_item.setData(QtCore.Qt.UserRole, movie)
-    #   self.lw_movies.addItem(lw_item)
+      #   lw_item = QtWidgets.QListWidgetItem(movie.title)
+      #   lw_item.setData(QtCore.Qt.UserRole, movie)
+      #   self.lw_movies.addItem(lw_item)
       
     # self.lw_moviesTitle.setTest("")
     
