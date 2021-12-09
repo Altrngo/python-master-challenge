@@ -1,8 +1,8 @@
 import re
 import string
+from pathlib import Path
 
 from tinydb import TinyDB, where, table
-from pathlib import Path
 
 
 class User:
