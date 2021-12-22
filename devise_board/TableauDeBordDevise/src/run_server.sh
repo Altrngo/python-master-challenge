@@ -1,0 +1,1 @@
+\\wsl$\Ubuntu\home\altrngo\code\Altrngo\python-master-challenge\devise_board\TableauDeBordDevise\venv\Scripts\python.exe \\wsl$\Ubuntu\home\altrngo\code\Altrngo\python-master-challenge\devise_board\TableauDeBordDevise\src\manage.py runserver

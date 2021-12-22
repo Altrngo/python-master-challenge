@@ -1,11 +1,11 @@
 from PySide2 import QtWidgets
-import currency_converter
+import currencyConverter
 
 
 class App(QtWidgets.QWidget):
   def __init__(self):
     super().__init__()
-    self.c = currency_converter.CurrencyConverter()
+    self.c = currencyConverter.CurrencyConverter()
     self.setWindowTitle("Convertisseur de Devises")
     self.setup_ui()
     self.set_default_values()
@@ -51,7 +51,7 @@ class App(QtWidgets.QWidget):
     devise_To = self.cbb_deviseTo.currentText()
     try:
       resultat = self.c.convert(montant, devise_from, devise_To)
-    except currency_converter.currency_converter.RateNotFoundError:
+    except currencyConverter.currency_converter.RateNotFoundError:
       print("La conversion n'a pas fonctionné.")
     else:
       self.spn_montantConverti.setValue(resultat)
